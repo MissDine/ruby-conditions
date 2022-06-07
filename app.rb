@@ -10,5 +10,12 @@ def to_do (day)
         "Do cleaning"    
     end    
 end    
-binding.pry
 # unless -run if the condition is false
+def do_dishes dishes
+    unless dishes == "clean"
+        "run the dish washer"
+    else
+        "don't run the dish washer"    
+    end
+end   
+binding.pry    
