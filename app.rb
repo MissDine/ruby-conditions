@@ -18,4 +18,16 @@ def do_dishes dishes
         "don't run the dish washer"    
     end
 end   
+
+# Case statements
+def to_do_weekend day
+    case day
+    when "Saturday"
+        "Go for swimming"
+    when "Sunday"
+        "Go to church"    
+    else
+        "Go to school"
+    end
+end            
 binding.pry    
