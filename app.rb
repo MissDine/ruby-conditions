@@ -44,7 +44,7 @@ while index <= 1
     index += 1
 end    
 # Times loop-defines the iteration number eg 10--more of a for loop
-10.Times do |i|
+10.times do |i|
     puts "i is : #{i}"
-ends
+end
 binding.pry 
