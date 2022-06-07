@@ -9,7 +9,10 @@ def to_do (day)
     else
         "Do cleaning"    
     end    
-end    
+end 
+# modified if elsif else
+x = 1
+puts "x is 1 \n" if x != 1    
 # unless -run if the condition is false
 def do_dishes dishes
     unless dishes == "clean"
@@ -47,4 +50,8 @@ end
 10.times do |i|
     puts "i is : #{i}"
 end
+# Each
+(1..20).each |num|
+  puts num
+end  
 binding.pry 
