@@ -12,17 +12,21 @@ def to_do (day)
 end 
 # modified if elsif else
 x = 1
-puts "x is 1 \n" if x != 1    
-# unless -run if the condition is false
+puts "x is 1 " if x != 1    
+# unless -run if the condition is false,if condition sis true the else clause is executed
+dishes = "dirty"
 def do_dishes dishes
-    unless dishes == "clean"
-        "run the dish washer"
+    unless dishes == "clean" then "run the dish washer"
     else
         "don't run the dish washer"    
     end
 end   
+# unlesss modifier
+x = 6
+puts "x is greater than 3"  unless x == 6 
 
 # Case statements
+# day here is a parameter
 def to_do_weekend day
     case day
     when "Saturday"
